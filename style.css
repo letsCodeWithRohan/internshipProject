@@ -601,3 +601,12 @@ h3 {
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
+.contact-col input:focus,
+.contact-col input:valid
+{
+    border-color: #f44336;
+}
+.contact-col textarea:focus,
+.contact-col textarea:valid{
+    border-color: #f44336;
+}
