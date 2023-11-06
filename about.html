@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.S.Agrawal College</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/ssa-logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <img src="svg/arrow-right-square-fill.svg" class="listx" onclick="hideMenu()">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <img src="svg/list.svg" class="listx" onclick="showMenu()">
+        </nav>
+        <h1>About Us</h1>
+    </section>
+    <!-- ---------------About Us Content ------------- -->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's Largest Univercity</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eos est atque illum odio? Quae blanditiis consequatur ipsa aperiam, commodi illum? Qui magni dolore earum veniam explicabo id molestiae quam.</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="img/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- ------------- Footer------------  -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni et nesciunt illo<br> iusto autem quae ipsa aspernatur a earum dolorem!</p>
+        <div class="icons">
+            <img src="svg/instagram.svg" class="ic">
+            <img src="svg/facebook.svg" class="ic">
+            <img src="svg/google.svg" class="ic">
+            <img src="svg/twitter.svg" class="ic">
+            <img src="svg/youtube.svg" class="ic">
+        </div>
+        <p>Made With <img src="svg/heart-fill.svg" class="heart"> By Chaudhari Rohan</p>
+    </section>
+    <!-- ---------Javascript for menubar----------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

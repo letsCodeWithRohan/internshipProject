@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.S.Agrawal College</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/ssa-logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <img src="svg/arrow-right-square-fill.svg" class="listx" onclick="hideMenu()">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <img src="svg/list.svg" class="listx" onclick="showMenu()">
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+    <!-- --------------- Course Content ------------- -->
+    <section class="course">
+        <h1>
+            Cources We Offer
+        </h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla ipsum obcaecati molestiae voluptates ipsam
+            consectetur atque laborum voluptate magnam ab.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Diploma</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, vel. Aut quisquam laudantium
+                    facilis debitis quos excepturi autem laboriosam necessitatibus?</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, vel. Aut quisquam laudantium
+                    facilis debitis quos excepturi autem laboriosam necessitatibus?</p>
+            </div>
+            <div class="course-col">
+                <h3>Post-Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, vel. Aut quisquam laudantium
+                    facilis debitis quos excepturi autem laboriosam necessitatibus?</p>
+            </div>
+        </div>
+    </section>
+    <!-- ------Facilities------- -->
+    <section class="facts">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="facts-col">
+                <img src="img/IMG_8587.jpg" alt="">
+                <h3>Transportation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ab voluptas quia nisi in
+                    laboriosam quae fugit ipsam, error vel optio sequi quo. Numquam cupiditate pariatur nobis eos ad
+                    ullam.</p>
+            </div>
+            <div class="facts-col">
+                <img src="img/library.jpg" alt="">
+                <h3>Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ab voluptas quia nisi in
+                    laboriosam quae fugit ipsam, error vel optio sequi quo. Numquam cupiditate pariatur nobis eos ad
+                    ullam.</p>
+            </div>
+            <div class="facts-col">
+                <img src="img/sports.jpg" alt="">
+                <h3>Sports</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ab voluptas quia nisi in
+                    laboriosam quae fugit ipsam, error vel optio sequi quo. Numquam cupiditate pariatur nobis eos ad
+                    ullam.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------------- Footer------------  -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni et nesciunt illo<br> iusto autem quae ipsa aspernatur a earum dolorem!</p>
+        <div class="icons">
+            <img src="svg/instagram.svg" class="ic">
+            <img src="svg/facebook.svg" class="ic">
+            <img src="svg/google.svg" class="ic">
+            <img src="svg/twitter.svg" class="ic">
+            <img src="svg/youtube.svg" class="ic">
+        </div>
+        <p>Made With <img src="svg/heart-fill.svg" class="heart"> By Chaudhari Rohan</p>
+    </section>
+    <!-- ---------Javascript for menubar----------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

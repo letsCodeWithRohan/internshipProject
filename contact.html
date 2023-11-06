@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.S.Agrawal College</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/ssa-logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <img src="svg/arrow-right-square-fill.svg" class="listx" onclick="hideMenu()">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <img src="svg/list.svg" class="listx" onclick="showMenu()">
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+    <!-- ---------------Contact Us Content ------------- -->
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3726.294784767563!2d72.94829222443197!3d20.94067379079989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be0f6541173178f%3A0x6bb12c948c33e2fc!2sS%20S%20Agrawal%20College%2C%20Navsari!5e0!3m2!1sen!2sin!4v1684346238636!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <span>
+                    <img src="svg/location-arrow.svg" class="icn">
+                    <h5>Devina Park Society, Gandevi Road,</h5><p> Navasri, Gujarat 396445</p>
+                </span>
+                </div>
+                <div>
+                    <span>
+                    <img src="svg/phone.svg" class="icn" >
+                    <h5>+91 7265001770</h5>
+                    <p>Monday to Saturday, 9AM to 4PM</p>
+                </span>
+                </div>
+                <div>
+                    <span>
+                    <img src="svg/envelope-at-fill.svg" class="icn">
+                    <h5>inf0@ssa.com</h5>
+                    <p>Email us your query</p>
+                </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="" method="post">
+                    <input name="name" type="text" placeholder="Enter Your Name" required>
+                    <input name="email" type="email" placeholder="Enter Email Address" required>
+                    <input name="subject" type="text" placeholder="Enter Your subject" required>
+                    <textarea name="message" placeholder="Message" required rows="8"></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------------- Footer------------  -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni et nesciunt illo<br> iusto autem quae ipsa aspernatur a earum dolorem!</p>
+        <div class="icons">
+            <img src="svg/instagram.svg" class="ic">
+            <img src="svg/facebook.svg" class="ic">
+            <img src="svg/google.svg" class="ic">
+            <img src="svg/twitter.svg" class="ic">
+            <img src="svg/youtube.svg" class="ic">
+        </div>
+        <p>Made With <img src="svg/heart-fill.svg" class="heart"> By Chaudhari Rohan</p>
+    </section>
+    <!-- ---------Javascript for menubar----------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

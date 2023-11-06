@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.S.Agrawal College</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/ssa-logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <img src="svg/arrow-right-square-fill.svg" class="listx" onclick="hideMenu()">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <img src="svg/list.svg" class="listx" onclick="showMenu()">
+        </nav>
+        <h1>Our Certificate & Online Programs For 2023</h1>
+    </section>
+    <!-- --------------- Blog Content ------------- -->
+    
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="img/certificate.jpg" alt="">
+                <h2>Our Certificate & Online Programs For 2023</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur harum tempora dicta animi sint autem totam omnis magnam expedita rerum, enim perferendis itaque ut accusamus amet ea iste velit quia?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo aliquid ipsam totam blanditiis perspiciatis quasi nihil dolor nesciunt magnam eius! Esse eligendi quam accusamus laborum facilis quasi veritatis soluta commodi repellat, similique mollitia aspernatur reprehenderit culpa, aut impedit. Dolores ad quod unde reiciendis officiis sapiente animi eveniet, soluta nulla libero.</p>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident recusandae inventore itaque aperiam ipsa ipsam. Enim deleniti neque explicabo porro ullam repellendus maiores iste! Omnis in et aspernatur nobis! Et repellat, enim quaerat repudiandae quae cumque earum ad sunt distinctio, similique possimus sapiente autem consequatur qui quisquam exercitationem non eum.
+                </p>
+                <br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium veniam placeat ipsam amet assumenda recusandae et voluptatum quia voluptates mollitia?</p>
+
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+                    <form action="" class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="text" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>23</span>
+                </div>
+                <div>
+                    <span>Auto CAD</span>
+                    <span>23</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>67</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>57</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>76</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>43</span>
+                </div>
+                <div>
+                    <span>Homeopathic</span>
+                    <span>87</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>56</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- ------------- Footer------------  -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni et nesciunt illo<br> iusto autem quae ipsa aspernatur a earum dolorem!</p>
+        <div class="icons">
+            <img src="svg/instagram.svg" class="ic">
+            <img src="svg/facebook.svg" class="ic">
+            <img src="svg/google.svg" class="ic">
+            <img src="svg/twitter.svg" class="ic">
+            <img src="svg/youtube.svg" class="ic">
+        </div>
+        <p>Made With <img src="svg/heart-fill.svg" class="heart"> By Chaudhari Rohan</p>
+    </section>
+    <!-- ---------Javascript for menubar----------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
